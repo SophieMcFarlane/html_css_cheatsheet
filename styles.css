@@ -62,12 +62,12 @@ td{
     padding: 10px;
     margin: 10px auto;
     text-align: center;
-    display: block;
+    display: inline-block;
 }
 
-.big_container{
-    text-align:center;
-    display:inline-block;
+.big-container{
+    text-align: center;
+    display: inline-block;
 }
 
 .tag {
