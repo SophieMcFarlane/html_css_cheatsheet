@@ -5,11 +5,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>HTML and CSS Cheatsheet</h1>
+        <div class="big-container">
+            <h1>HTML and CSS Cheatsheet</h1>
         
-        <div class="big_container">
+        <!-- The section on HTML tables-->
+        <div class="container">
             <h2>HTML Table Reference</h2>
 
+            <!-- The table on table tags-->
             <div class="container">
                 <h3>Table Tags</h3>
                 
@@ -57,6 +60,7 @@
 
             </div>
 
+            <!--Table on the table attributes-->
             <div class="container">
                 <h3>Table Attributes</h3>
 
@@ -82,6 +86,40 @@
                     </tbody>
                 </table>
             </div>
+        </div>
+
+        <!-- Section on <script> tag-->
+        <div class="container">
+            <h2>&lt;script&gt; Tag</h2>
+
+            <!-- Table on the script attributes-->
+            <div class="container">
+                <h3>Script Attributes</h3>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Attribute</td>
+                            <td>Name</td>
+                            <td>Description</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tag">defer</td>
+                            <td>Defer</td>
+                            <td>scripts will be executed after the HTML file is completely parsed</td>
+                        </tr>
+                        <tr>
+                            <td class="tag">async</td>
+                            <td>Async</td>
+                            <td>HTML parser will continue parsing the rest of the HTML as the script is downloaded in the background</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
         </div>
     </body>
 </html>
